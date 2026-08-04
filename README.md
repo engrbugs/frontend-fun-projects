@@ -14,6 +14,12 @@
 | **Survey Form** | A focused form-design exercise | [Open demo →](https://engrbugs.github.io/frontend-fun-projects/SurveyForm/) |
 | **Technical Documentation** | Making complex ideas easier to read | [Open demo →](https://engrbugs.github.io/frontend-fun-projects/TechnicalDocumentation/) |
 
+## Visual preview
+
+[![Frontend Fun Projects gallery](screenshots/gallery-home.png)](https://engrbugs.github.io/frontend-fun-projects/)
+
+_Click the preview to open the live gallery._
+
 ## Repository structure
 
 ```text
