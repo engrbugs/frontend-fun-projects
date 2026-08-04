@@ -1,0 +1,54 @@
+html body {
+  background-color: #1E1F26;
+}
+
+.App {
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ht:76vh;
+}
+
+.App-header {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+}
+
+.btn-clear {
+  justify-content: flex-end;
+  display: flex;
+  margin: 4px 16px 12px auto;
+  display: inline-flex;
+  justify-content: end;
+}
+
+#editor {
+  height: var(--ht);
+  background-color: #1D1E22;
+  color: #DDCA7E;
+  font-family: 'Fira Code', monospace;
+}
+
+#editor:focus {
+  outline: none !important;
+  border: 1px solid #2e86de;
+}
+
+.preview {
+  background-color: white;
+  color: black;
+  max-height: var(--ht);
+  min-height: var(--ht);
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  overflow: auto;
+}
+
+.preview img {
+  max-width: 80%;
+}
+
