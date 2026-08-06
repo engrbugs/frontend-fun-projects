@@ -1,6 +1,8 @@
 # Frontend Fun Projects
 
-<p align="center"><strong>Small projects. Big personality.</strong><br>A curated gallery of interactive frontend experiments and browser mini-apps.</p>
+<p align="center"><strong>I learn by making things.</strong><br>A collection of small browser projects made while learning JavaScript, React, and layout.</p>
+
+<p align="center"><a href="https://engrbugs.github.io/frontend-fun-projects/">Open the live gallery →</a></p>
 
 ## Explore the collection
 
