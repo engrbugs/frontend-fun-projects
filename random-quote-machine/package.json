@@ -13,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://engrbugs.github.io/random-quote-machine/",
+  "homepage": "https://engrbugs.github.io/frontend-fun-projects/random-quote-machine/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

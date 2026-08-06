@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://engrbugs.github.io/react-app-calculator/",
+  "homepage": "https://engrbugs.github.io/frontend-fun-projects/react-app-calculator/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
