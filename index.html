@@ -1,1 +1,92 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Frontend Fun Projects</title><link rel="stylesheet" href="gallery.css"></head><body><main class="page"><header class="topbar"><a class="brand" href="./">Frontend <span>Fun</span></a><nav><a href="./">Home</a><a href="#projects">Projects</a><a href="https://github.com/engrbugs/frontend-fun-projects">GitHub</a></nav></header><div class="eyebrow">A playful frontend portfolio</div><h1>Small projects.<br>Big personality.</h1><p class="lede">A curated collection of interactive experiments, tiny tools, and browser projects built for learning, play, and the joy of making things work.</p><section class="gallery" id="projects"><a class="card" href="random-quote-machine/"><span class="number">01</span><h2>Random Quote Machine</h2><p>Find a little perspective, one quote at a time.</p><span class="arrow">Explore project →</span></a><a class="card" href="drum-machine/"><span class="number">02</span><h2>Drum Machine</h2><p>Tap out a beat directly in the browser.</p><span class="arrow">Make some noise →</span></a><a class="card" href="pomodoro-clock/"><span class="number">03</span><h2>Pomodoro Clock</h2><p>Turn focused work into a small ritual.</p><span class="arrow">Start a session →</span></a><a class="card" href="react-app-calculator/"><span class="number">04</span><h2>React Calculator</h2><p>A clean little exercise in state and interaction.</p><span class="arrow">Run the numbers →</span></a><a class="card" href="markdown-previewer/"><span class="number">05</span><h2>Markdown Previewer</h2><p>Write on one side. See the result on the other.</p><span class="arrow">Preview some text →</span></a><a class="card" href="SurveyForm/"><span class="number">06</span><h2>Survey Form</h2><p>A friendly, focused form design exercise.</p><span class="arrow">Open the form →</span></a><a class="card" href="TechnicalDocumentation/"><span class="number">07</span><h2>Technical Documentation</h2><p>A structured page for making complex ideas readable.</p><span class="arrow">Read the docs →</span></a></section><footer class="footer"><span>Built with HTML, CSS, JavaScript, and curiosity.</span><a href="https://github.com/engrbugs/frontend-fun-projects">View source on GitHub →</a></footer></main></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A working archive of small frontend experiments by engrbugs." />
+    <title>Frontend experiments — engrbugs</title>
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="./"><span class="brand-mark">/</span> engrbugs</a>
+        <nav aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="https://github.com/engrbugs/frontend-fun-projects">Source ↗</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="intro-title">
+        <div>
+          <p class="kicker">Frontend experiments / working archive</p>
+          <h1 id="intro-title">I learn by<br /><em>making things.</em></h1>
+          <p class="intro">A collection of small browser projects made while learning JavaScript, React, layout, and the peculiar joy of making a button do exactly what it should.</p>
+        </div>
+        <aside class="hero-note">
+          <span class="note-pin">✳</span>
+          <p>Not a startup.<br />Not a design system.<br /><strong>Just a workbench.</strong></p>
+          <span class="note-count">07 projects / open source</span>
+        </aside>
+      </section>
+
+      <section class="project-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="kicker">The current shelf</p>
+          <h2 id="projects-title">Things I made</h2>
+          <p>Some are useful, some are practice, and a few exist because the browser made it possible.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project project-wide" href="random-quote-machine/">
+            <span class="project-meta">01 / React · API</span>
+            <h3>Random Quote Machine</h3>
+            <p>Pulls a little perspective from a quote feed, then gets out of the way.</p>
+            <span class="project-link">Open experiment <span>↗</span></span>
+          </a>
+          <a class="project project-dark" href="drum-machine/">
+            <span class="project-meta">02 / React · sound</span>
+            <h3>Drum Machine</h3>
+            <p>A tiny set of pads for making noise with a keyboard.</p>
+            <span class="project-link">Make a beat <span>↗</span></span>
+          </a>
+          <a class="project project-blue" href="pomodoro-clock/">
+            <span class="project-meta">03 / React · time</span>
+            <h3>Pomodoro Clock</h3>
+            <p>A focused timer with enough personality to make starting easier.</p>
+            <span class="project-link">Start a session <span>↗</span></span>
+          </a>
+          <a class="project project-paper" href="react-app-calculator/">
+            <span class="project-meta">04 / React · state</span>
+            <h3>React Calculator</h3>
+            <p>Buttons, keyboard input, and the small discipline of handling every edge case.</p>
+            <span class="project-link">Calculate <span>↗</span></span>
+          </a>
+          <a class="project project-yellow" href="markdown-previewer/">
+            <span class="project-meta">05 / React · Markdown</span>
+            <h3>Markdown Previewer</h3>
+            <p>Write in one pane and watch the formatted version appear beside it.</p>
+            <span class="project-link">Write something <span>↗</span></span>
+          </a>
+          <a class="project project-outline" href="SurveyForm/">
+            <span class="project-meta">06 / HTML · CSS</span>
+            <h3>Survey Form</h3>
+            <p>A form exercise about hierarchy, labels, and asking fewer confusing questions.</p>
+            <span class="project-link">Open the form <span>↗</span></span>
+          </a>
+          <a class="project project-outline project-wide" href="TechnicalDocumentation/">
+            <span class="project-meta">07 / HTML · layout</span>
+            <h3>Technical Documentation</h3>
+            <p>A long-form page exploring how structure and spacing can make dense material feel calmer.</p>
+            <span class="project-link">Read the page <span>↗</span></span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Built slowly, in public, with HTML, CSS, JavaScript, and curiosity.</p>
+        <a href="https://github.com/engrbugs/frontend-fun-projects">View the source on GitHub ↗</a>
+      </footer>
+    </main>
+  </body>
+</html>
